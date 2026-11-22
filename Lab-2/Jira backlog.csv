@@ -1,0 +1,10 @@
+﻿Issue ID,Parent ID,Issue Type,Summary,Description,Priority,Story Points
+1,,Epic,Balances and quotes,Connect partner balances and lock a rate.,High,
+2,,Epic,Exchange and redemption,"Convert points, issue vouchers and settle redemptions.",High,
+3,,Epic,Transaction history,Give holders an auditable receipt trail.,Medium,
+10,1,Story,Link merchant balances,"As an account holder, I want to see balances by merchant so that I can choose which points to exchange. FR-002",High,3
+11,1,Story,Lock a rate quote,"As an account holder, I want a time-limited quote so that I know exactly how many credits my points will buy. FR-003",High,3
+12,2,Story,Convert points to credits,"As an account holder, I want to accept a quote so that verified points become spendable wallet credits. FR-001",High,5
+13,2,Story,Issue a gift card,"As an account holder, I want to exchange credits for a single-use voucher so that I can pay a participating merchant. FR-001",High,3
+14,2,Story,Redeem a voucher once,"As a merchant partner, I want concurrent checkouts to settle once so that I can accept a voucher safely. FR-004",High,5
+15,3,Story,Retrieve my receipt,"As an account holder, I want to retrieve a receipt by transaction ID so that I can reconcile my wallet. FR-005",Medium,2
